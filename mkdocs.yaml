@@ -1,0 +1,27 @@
+site_name: MitoTNT
+
+nav:
+    - 'Home': 'index.md'
+    - 'Installation': '1_installation.md'
+    - 'Data preparation': '2_data_preparation.md'
+    - 'Tracking': '3_tracking.md'
+    - 'Visualization': '4_visualization.md'
+    - 'Detect fusion/fission': '5_detect_remodeling.md'
+    - 'Post-tracking analysis': '6_post-tracking_analysis.md'
+
+theme:
+    name: material
+    palette:
+        primary: orange
+        accent: red
+    logo: contents/logo.png
+    favicon: contents/logo.png
+    
+plugins:
+    - mkdocs-video
+    
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
